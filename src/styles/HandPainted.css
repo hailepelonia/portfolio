@@ -1,0 +1,114 @@
+.hand-painted {
+
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto; /* Enable scrolling for overflowing content */
+
+}
+
+.hand-painted h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #cede89;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hand-painted p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 10px 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wallet-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+  padding-bottom: 120px;
+}
+
+.wallet-main-container {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.wallet-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Modal styling */
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  font-weight: bold;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev:hover,
+.next:hover {
+  color: #cede89;
+}

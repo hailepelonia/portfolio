@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Selincah&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #cede89;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.navbar .links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+
+.navbar h1 {
+  font-family: 'Selincah', sans-serif;
+  color: black;
+  font-weight: normal;
+  letter-spacing: 13px;
+}
+
+.navbar .logo-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from the parent */
+}
+
+.navbar .logo-link:hover {
+  color: #ff6347; /* Optional: Change color on hover */
+  cursor: pointer; /* Show a pointer on hover */
+}

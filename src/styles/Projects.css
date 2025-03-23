@@ -1,0 +1,151 @@
+.projects {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 100vh;
+  font-size: x-large;
+  margin-top: 20px;
+}
+
+.projects h2 {
+  color: white;
+  text-decoration: none; /* Ensure no underline */
+  margin-bottom: 70px;
+}
+
+/* .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #2a2a2a;
+  text-decoration: none; 
+  font-size: larger;
+} */
+
+.cards .red,
+.cards .blue,
+.cards .green,
+.cards .yellow {
+  background-color: #cede89;
+  color: #2a2a2a;
+  text-decoration: none; 
+}
+
+/* .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: #2a2a2a;
+  cursor: pointer;
+  transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+  box-shadow: 0px 0px 30px 1px rgba(237, 255, 100, 0.3);
+  text-decoration: none; 
+} */
+
+.cards .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none; /* Ensure no underline */
+  margin-bottom: 2px;
+}
+
+.cards .card p.second-text {
+  font-size: 0.7em;
+  text-decoration: none; 
+  margin-top: 0;
+}
+
+.cards .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px 1px rgba(237, 255, 100, 0.3);
+  background-color: #cede89;
+  color: #333;
+  text-decoration: none; /* Ensure no underline */
+}
+
+.cards:hover > .card:not(:hover) {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Small spacing between the cards */
+  justify-items: stretch; /* Make cards fill the entire column */
+  align-items: stretch; /* Make cards fill the grid cell vertically */
+  width: 100%; /* Ensure the grid container stretches across the page */
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  column-gap: 10px;
+}
+
+.card-icon2 {
+  width: 180px; /* Adjust the size as needed */
+  height: 100px;
+}
+
+
+.card-icon3 {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px;
+  margin-right: 20px;
+}
+
+
+.card-icon4 {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  margin-right: 20px;
+}
+
+.card-icon5 {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  margin-right: 20px;
+}
+
+.card-icon6 {
+  width: 170px; /* Adjust the size as needed */
+  height: 100px;
+  margin-right: 20px;
+}
+
+.card-icon7 {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  margin-right: 20px;
+}
